@@ -1,0 +1,17 @@
+# Xcode #
+.DS_Store
+build/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.xcscheme
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager #
+.build/
