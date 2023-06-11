@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginBttn: CTAButton!
     
     @IBAction func loginBttnTapped(_ sender: CTAButton) {
+        print("Login")
         isBadLoginAttempt = !isBadLoginAttempt
         updatePasswordFieldUI()
         
