@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70A549A2A2E58F3004E6AFC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A54992A2E58F3004E6AFC /* LoginViewController.swift */; };
 		C712C1F22A06F1C80008D392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C1F12A06F1C80008D392 /* AppDelegate.swift */; };
 		C712C1F42A06F1C80008D392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C1F32A06F1C80008D392 /* SceneDelegate.swift */; };
 		C712C1F62A06F1C80008D392 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712C1F52A06F1C80008D392 /* SplashViewController.swift */; };
@@ -15,9 +16,15 @@
 		C721CDED2A0E4FF600BFE49D /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C721CDEC2A0E4FF600BFE49D /* WelcomViewController.swift */; };
 		C75A2EE52A0E27B400E31BBF /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A2EE42A0E27B400E31BBF /* SignUpButton.swift */; };
 		C75A2EE92A0E2A7900E31BBF /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A2EE82A0E2A7900E31BBF /* CTAButton.swift */; };
+		C7DA16872A32FC0200F529A3 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA16862A32FC0200F529A3 /* NavBar.swift */; };
+		C7DA16892A3313DA00F529A3 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA16882A3313DA00F529A3 /* BackButton.swift */; };
+		C7DA168B2A33494000F529A3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA168A2A33494000F529A3 /* CustomTextField.swift */; };
+		C7DA168D2A33844400F529A3 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA168C2A33844400F529A3 /* SocialLoginButton.swift */; };
+		C7DA168F2A3460F600F529A3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA168E2A3460F600F529A3 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C70A54992A2E58F3004E6AFC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C712C1EE2A06F1C80008D392 /* KarenTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarenTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C712C1F12A06F1C80008D392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C712C1F32A06F1C80008D392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +35,11 @@
 		C721CDEC2A0E4FF600BFE49D /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		C75A2EE42A0E27B400E31BBF /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 		C75A2EE82A0E2A7900E31BBF /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		C7DA16862A32FC0200F529A3 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		C7DA16882A3313DA00F529A3 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		C7DA168A2A33494000F529A3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C7DA168C2A33844400F529A3 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
+		C7DA168E2A3460F600F529A3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,10 @@
 			children = (
 				C75A2EE82A0E2A7900E31BBF /* CTAButton.swift */,
 				C75A2EE42A0E27B400E31BBF /* SignUpButton.swift */,
+				C7DA168A2A33494000F529A3 /* CustomTextField.swift */,
+				C7DA16882A3313DA00F529A3 /* BackButton.swift */,
+				C7DA168C2A33844400F529A3 /* SocialLoginButton.swift */,
+				C7DA16862A32FC0200F529A3 /* NavBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -85,6 +101,8 @@
 			children = (
 				C712C1F52A06F1C80008D392 /* SplashViewController.swift */,
 				C721CDEC2A0E4FF600BFE49D /* WelcomViewController.swift */,
+				C70A54992A2E58F3004E6AFC /* LoginViewController.swift */,
+				C7DA168E2A3460F600F529A3 /* SignUpViewController.swift */,
 			);
 			path = Controlers;
 			sourceTree = "<group>";
@@ -159,11 +177,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70A549A2A2E58F3004E6AFC /* LoginViewController.swift in Sources */,
+				C7DA168B2A33494000F529A3 /* CustomTextField.swift in Sources */,
 				C712C1F62A06F1C80008D392 /* SplashViewController.swift in Sources */,
+				C7DA16872A32FC0200F529A3 /* NavBar.swift in Sources */,
+				C7DA16892A3313DA00F529A3 /* BackButton.swift in Sources */,
 				C75A2EE92A0E2A7900E31BBF /* CTAButton.swift in Sources */,
+				C7DA168F2A3460F600F529A3 /* SignUpViewController.swift in Sources */,
 				C712C1F22A06F1C80008D392 /* AppDelegate.swift in Sources */,
 				C712C1F42A06F1C80008D392 /* SceneDelegate.swift in Sources */,
 				C75A2EE52A0E27B400E31BBF /* SignUpButton.swift in Sources */,
+				C7DA168D2A33844400F529A3 /* SocialLoginButton.swift in Sources */,
 				C721CDED2A0E4FF600BFE49D /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

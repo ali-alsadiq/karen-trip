@@ -15,5 +15,6 @@ class WelcomViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         loginBttn.frame = CGRect(x: 39, y: 683, width: 335, height: 55)
+
     }
 }

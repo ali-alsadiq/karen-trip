@@ -34,13 +34,4 @@ class CTAButton: UIButton {
         self.layer.shadowRadius = 8
         self.layer.shadowOpacity = 1.0
     }
-    
-    // MARK: - Overridden Methods
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Do any additional setup after loading the CTAButton.
-
-        self.titleLabel?.textColor = .white
-    }
 }
